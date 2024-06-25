@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:thapar_inshorts/utils/theme/theme.dart';
 
 void main() {
-  runApp(const App());
+  runApp(const app());
 }
 
-class App extends StatelessWidget {
-  const App({super.key});
+class app extends StatelessWidget {
+  const app({super.key});
 
   @override
   Widget build(BuildContext context) {
