@@ -2,7 +2,6 @@ name: thapar_inshorts
 description: "A new Flutter project."
 publish_to: 'none'
 
-
 version: 1.0.0+1
 
 environment:
@@ -29,8 +28,7 @@ dependencies:
 
   #Product Specific
 
-
-  #--------------------------./Packages End ------------------#
+#--------------------------./Packages End ------------------#
 
 dev_dependencies:
   flutter_test:
@@ -38,33 +36,31 @@ dev_dependencies:
 
   flutter_lints: ^3.0.0
 
-
 flutter:
-
   uses-material-design: true
 
-  #------------------ Local Assests ----------------#
-  Assests:
+  #------------------ Local Assets ----------------#
+  assets:
     - Assests/logo/
     - Assests/icon/
     - Assests/Image/
 
-#-------------------- Local Fonts ------------------#
-  Fonts:
+  #-------------------- Local Fonts ------------------#
+  fonts:
     - family: Poppins
-      Fonts:
-        - asset: Assests/Font/Poppins-Light.ttf
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
           weight: 300
-        - asset: Assests/Font/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
           weight: 400
-        - asset: Assests/Font/Poppins-Italic.ttf
+        - asset: assets/fonts/Poppins-Italic.ttf
           style: italic
-        - asset: Assests/Font/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
           weight: 500
-        - asset: Assests/Font/Poppins-MediumItalic.ttf
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
           weight: 500
           style: italic
-        - asset: Assests/Font/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
           weight: 600
-        - asset: Assests/Font/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
           weight: 800
